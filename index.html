@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD131 - Zach Sutherland</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Zachariah Sutherland</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals -- Zachariah Sutherland -- Learning about HTML, CSS, Javascript for web development.">
+    <meta name="author" content="Zachariah Sutherland">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>Zach Sutherland - WDD131</h1>
+    <header>
+        <h1>WDD131: Dynamic Web Fundamentals - <span style="color:rgb(226, 176, 114)">Zachariah Sutherland</span></h1>
+
+        <nav>
+            <ul class="navbar">
+                <li><a href="https://www.linkedin.com/in/zach-sutherland/">LinkedIn</a></li>
+                <li><a href="https://byui.instructure.com/">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/4?lang=eng&id=p15#p15">Favorite Scripture</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+
+            <div class="top-half">
+                <p><br><br><br>My name is Zach Sutherland. I grew up in and currently live in Connecticut, USA. I am a software development student at BYU-I and particularly enjoy designing computer applications, but am excited to learn about web and mobile development as well. I am a quality control manager at an adhesive manufacturing plant. In my free time, I like board games, puzzles and spending time with my girlfriend.<br><br><br></p>
+                <img src="images/meResized.jpg" alt="Photo of Me" id="me">
+            </div>
+
+            <h3><u><strong>&emsp;&emsp;Connecticut, United States&emsp;&emsp;</strong></u></h3><br>
+
+            <div class="bottom-half">
+                <img src="images/connecticut.png" alt="Connecticut Flag" id="ct">
+                <p><br><br><br>Connecticut, known as the Constitution State, is located in the New England region of the northeastern United States. It is the southernmost state in New England and the third smallest state by area. Connecticut is bordered by Massachusetts to the north, Rhode Island to the east, New York to the west, and Long Island Sound to the south.<br><br><br></p>
+            </div>
+        </section>
+        
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a style="text-decoration: none" href="https://css-tricks.com/">CSS Tricks</a></li>
+                <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                <li><a href="https://www.udemy.com/">Udemy</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> Zachariah Sutherland - Connecticut, USA
+        </p>
+        <p id="lastModified" style="color:rgb(226, 176, 114)"></p>
+    </footer>
+
+    <script>
+
+    </script>
 </body>
 </html>

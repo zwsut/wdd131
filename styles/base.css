@@ -1,0 +1,210 @@
+/* General, Nav, Header, Footer */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer, .card h2 {
+    background-color: #001F3F;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Hover Effect -- credit to https://getdevdone.com/blog/our-favorite-navigation-menu-effects.html */
+nav ul{
+    margin:0;
+    padding:0;
+    display:flex;
+}
+  
+nav ul li{
+    list-style:none;
+    margin:0 20px;
+    transition:0.5s;
+}
+  
+nav ul li a{
+    display: block;
+    position:relative;
+    text-decoration:none;
+    padding:5px;
+    font-size:18px;
+    font-family: sans-serif;
+    color:#fff;
+    text-transform:uppercase;
+    transition:0.5s;
+}
+  
+nav ul:hover li a{
+    transform:scale(1.5);
+    opacity:0.8;
+    filter:blur(8px);
+}
+  
+nav ul li a:hover{
+    transform:scale(1.2);
+    opacity:1;
+    filter:blur(0);
+    text-decoration:none;
+    color:#fff;
+}
+  
+nav ul li a:before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgb(226, 176, 114);
+    transition:0.5s;
+    transform-origin:right;
+    transform:scaleX(0);
+    z-index:-1;
+}
+  
+nav ul li a:hover:before{
+    transition:transform 0.5s;
+    transform-origin:left;
+    transform:scaleX(1);
+    border-radius: 10px;
+}
+/* End Hover */
+
+/* Main */
+main {
+    max-width: 1800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background-color: #b4bfce;
+    color: #001F3F;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card h2 {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.card ul li{
+    color: #001F3F;
+}
+
+.card a{
+    text-decoration: none;
+    color: #001F3F;
+}
+    
+.card a:visited{
+    text-decoration: none;
+    color: #001F3F;
+}
+.card .top-half,
+.card .bottom-half {
+    margin-bottom: 20px;
+}
+
+.card:first-child {
+    flex: 2;
+}
+
+.card:nth-child(2) {
+    flex: 1;
+}
+
+#me,
+#ct {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card .top-half,
+    .card .bottom-half {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .card .top-half p {
+        flex: 1;
+        margin-right: 20px;
+    }
+    
+    .card .bottom-half p {
+        flex: 1;
+    }
+    
+    .card h3 {
+        margin-top: 20px;
+        flex: 1;
+    }
+    
+    #me {
+        max-width: 20%;
+    }
+    
+    #ct {
+        max-width: 25%;
+    }
+    
+    .card ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card ul li {
+        margin: 10px 0;
+        font-size: 1.2em;
+    }
+}
