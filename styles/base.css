@@ -98,6 +98,10 @@ nav ul li a:hover:before{
 /* End Hover */
 
 /* Main */
+.colored {
+    color: rgb(226, 176, 114);
+}
+
 main {
     max-width: 1800px;
     margin: 0 auto;
