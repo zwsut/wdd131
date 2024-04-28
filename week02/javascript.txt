@@ -1,0 +1,47 @@
+if statement: Executes a block of code if a specified condition is true.
+else statement: Provides an alternative block of code to execute if the condition in the if statement is false.
+else if statement: This structure allows for the checking of multiple conditions in sequence
+
+if (condition) {
+    stuff to do
+} else if (condition2) {
+    other stuff
+} else {
+    other stuff
+}
+
+Switch Statements: Provides a way to execute selective blocks of code based on the value of an expression.
+
+switch (expression)
+    case value1:
+        code to run
+        break
+    case value2:
+        code to run
+        break
+    
+    ...
+
+    default:
+        code if none of the values match
+
+Loops
+for Loop: Repeats a block of coe a specified number of times.
+
+for (let i = 0; i < 19; i++) {
+    code to run
+}
+
+while Loop: Repeats a block of code as long as a specified condition is true.
+
+while (condition) {
+    code to run
+}
+
+forEach Loop: This loop structure is for arrays. It iterates over each element of the array.
+
+forEach Loop: This loop structure is for arrays. It iterates over each element of the array.
+
+array.forEach(function(element) {
+    runs function on each item in array
+})
