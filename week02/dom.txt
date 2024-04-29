@@ -43,5 +43,15 @@ These lines of code remove the paragraph from the article and then, the article 
 article.removeChild(paragraph);
 article.remove();
 
+buttonElement.addEventListener('click', function() {
+  // Code to execute when the element is clicked
+});
 
+buttonElement.addEventListener('keyup', function() {
+  // Code to execute when a key is released
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Code to execute when the DOM is parsed
+});
 
