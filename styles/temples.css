@@ -16,12 +16,18 @@ header {
 #menu a:hover {
     background-color: #ddd;
     color: black;
+    border-radius: 10px;
 }
 
 #home {
     text-align: left;
     font-size: 6vw;
     font-family: 'Roboto', sans-serif;
+}
+
+main {
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 h2 {
@@ -42,6 +48,7 @@ h2 {
     position: relative;
     width: 100%;
     font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
 }
 
 .topnav ul {
@@ -85,6 +92,7 @@ footer {
     text-align: center;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
 }
 
 .colored {
