@@ -8,13 +8,21 @@
         font-size: 3rem;
     }
 
-    h1 {
+    h2 {
         text-align: center;
         font-size: 2rem;
     }
 
     #templeElements {
         grid-template-columns: 1fr 1fr;
+    }
+
+    header {
+        display: flex;
+    }
+
+    header h1 {
+        flex: 1;
     }
 
     .topnav #menu {
@@ -24,6 +32,8 @@
         text-decoration: none;
         justify-content: space-between;
         padding-left: 4rem;
+        float: right;
+        flex: 1;
     }
 
     #menu {

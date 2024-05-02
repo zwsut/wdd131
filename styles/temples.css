@@ -17,11 +17,6 @@ header {
     background-color: #ddd;
     color: black;
 }
-  
-.active {
-    background-color: #001F3F;
-    color: white;
-}
 
 #home {
     text-align: left;
@@ -29,7 +24,7 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
+h2 {
     text-align: center;
     font-size: 4vw;
     color: #FFFFFF;
@@ -57,7 +52,8 @@ h1 {
     display: none;
 }
   
-.topnav a {
+.topnav a,
+.topnav h1 {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
