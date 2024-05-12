@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Zachariah Sutherland</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals -- Zachariah Sutherland -- Learning about HTML, CSS, Javascript for web development.">
+    <meta name="author" content="Zachariah Sutherland">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/place.js" defer></script>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans&display=swap" >
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Mallorca, Spain</h1>
+    </header>
+
+    <main>
+        <div id="hero">
+            <picture>
+                <source srcset="images/mallorca-large1.webp" media="(min-width: 1000px)">
+                <source srcset="images/mallorca-medium1.webp" media="(min-width: 550px)">
+                <img src="images/mallorca-small1.webp" alt="Mallorca, Spain" width="360" height="480">
+            </picture>
+        </div>
+
+        <div id="data">
+            <h2>Data</h2>
+            <p><strong>Area:</strong> 3,640.11 km²
+            <br><strong>Population:</strong> 940,332
+            <br><strong>Capital:</strong> Palma
+            <br><strong>Languages:</strong> Catalan, Spanish
+            <br><strong>Currency:</strong> Euro
+            <br><strong>Time Zone:</strong> GMT+2
+            <br><strong>Calling Code:</strong> +34-971
+            <br><strong>Internet TLD:</strong> .es
+            </p>
+        </div>
+
+        <div id="weather">
+            <h2 id="icon">Weather</h2>
+            <ul id="weatherStats"></ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> Zachariah Sutherland - Connecticut, USA
+        </p>
+        <p id="lastModified" class="colored"></p>
+    </footer>
+</body>
