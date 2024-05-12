@@ -1,7 +1,7 @@
 /* mobile view and base css */
 :root {
     --main-color: #ECD59B;
-    --pane-padding: 5px 42px;
+    --secondary-color: rgb(0, 0, 70);
 }
 body {
     margin: 0;
@@ -9,8 +9,8 @@ body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: rgb(0, 0, 70);
-    background-color: #ECD59B;
+    color: var(--secondary-color);
+    background-color: var(--main-color);
 }
 
 header {
