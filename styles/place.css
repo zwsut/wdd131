@@ -1,16 +1,16 @@
 /* mobile view and base css */
 :root {
-
     --main-color: #ECD59B;
-    --secondary-color: #A4D555;
-
+    --pane-padding: 5px 42px;
+}
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    background-color: #ECD59B;
     color: rgb(0, 0, 70);
+    background-color: #ECD59B;
 }
 
 header {
@@ -23,6 +23,7 @@ header {
     font-family: "Cedarville Cursive", cursive;
     font-weight: 400;
     font-style: normal;
+    margin-top: 10px;
 }
 
 footer {
