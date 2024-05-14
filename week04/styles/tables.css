@@ -1,0 +1,41 @@
+:root {
+	--back: rgb(104, 202, 153);
+  --back2: hsla(150, 50%, 30%, .5);
+  --foredark: rgb(12, 3, 3);
+	--forelight: hsla(0,0%,100%,1);
+	--border: hsla(0,0%,20%,.8);
+	--borderlight: hsla(0,0%,33%,.3);
+	--shadow: hsl(0,0%,50%);
+	--zebra: hsl(0, 0%, 93%, 1);
+}
+
+caption {
+    caption-side: bottom;
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 10px var(--shadow);
+	border-collapse: collapse;
+    text-align: center;
+    width: 500px;
+    height: auto;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: var(--zebra);
+}
+
+tr:first-child, .highlight {
+	background-color: var(--back);
+}
+
+.thead {
+    background-color: var(--back2);
+    color: var(--forelight);
+}
+
+th, td {
+    padding: 10px;
+}
