@@ -1,0 +1,116 @@
+header {
+    background-color: #001F3F;
+    color: #FFFFFF;
+    width: auto;
+    text-align: center;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+#menu a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 10px;
+}
+
+#home {
+    text-align: left;
+    font-size: 6vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 4vw;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif; 
+}
+
+#templeElements {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.temple-card {
+    background-color: #e9dbad;
+    padding: 10px;
+    margin: 20px;
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.temple-card img {
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+}
+
+.topnav ul {
+    list-style: none;
+}
+  
+.topnav #menu {
+    display: none;
+}
+  
+.topnav a,
+.topnav h1 {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-align: left;
+}
+
+img {
+    max-width: 100%; /* Scale images with screen size */
+    height: auto;
+}
+
+body {
+    background-color: #001F3F;
+}
+
+figure,
+figcaption {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+}
+
+.colored {
+    color: #e6d2a8;
+}
