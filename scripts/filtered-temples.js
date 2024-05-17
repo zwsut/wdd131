@@ -5,7 +5,7 @@ const temples = [
     dedicated: "2005, August, 7",
     area: 11500,
     imageUrl:
-    "../images/abaNigeria.jpg"
+    "images/abaNigeria.jpg"
   },
   {
     templeName: "Manti Utah",
@@ -13,7 +13,7 @@ const temples = [
     dedicated: "1888, May, 21",
     area: 74792,
     imageUrl:
-    "../images/mantiUtah.jpg"
+    "images/mantiUtah.jpg"
   },
   {
     templeName: "Payson Utah",
@@ -21,7 +21,7 @@ const temples = [
     dedicated: "2015, June, 7",
     area: 96630,
     imageUrl:
-    "../images/paysonUtah.jpg"
+    "images/paysonUtah.jpg"
   },
   {
     templeName: "Yigo Guam",
@@ -29,7 +29,7 @@ const temples = [
     dedicated: "2020, May, 2",
     area: 6861,
     imageUrl:
-    "../images/yigoGuam.jpg"
+    "images/yigoGuam.jpg"
   },
   {
     templeName: "Washington D.C.",
@@ -37,7 +37,7 @@ const temples = [
     dedicated: "1974, November, 19",
     area: 156558,
     imageUrl:
-    "../images/washington.jpeg"
+    "images/washington.jpeg"
   },
   {
     templeName: "Lima Perú",
@@ -45,7 +45,7 @@ const temples = [
     dedicated: "1986, January, 10",
     area: 9600,
     imageUrl:
-    "../images/limaPeru.jpg"
+    "images/limaPeru.jpg"
   },
   {
     templeName: "Mexico City Mexico",
@@ -53,7 +53,7 @@ const temples = [
     dedicated: "1983, December, 2",
     area: 116642,
     imageUrl:
-    "../images/mexicoCity.jpg"
+    "images/mexicoCity.jpg"
   },
   {
     templeName: "Melbourne Australia",
@@ -61,7 +61,7 @@ const temples = [
     dedicated: "1999, March, 20",
     area: 10700,
     imageUrl:
-    "../images/melbourne.jpg"
+    "images/melbourne.jpg"
   },
   {
     templeName: "Hartford Connecticut",
@@ -69,7 +69,7 @@ const temples = [
     dedicated: "2013, August, 17",
     area: 32246,
     imageUrl:
-    "../images/hartford.jpg"
+    "images/hartford.jpg"
   },
   {
     templeName: "Boston Massachusetts",
@@ -77,7 +77,7 @@ const temples = [
     dedicated: "1997, June, 13",
     area: 69600,
     imageUrl:
-    "../images/boston.jpg"
+    "images/boston.jpg"
   }
 ];
 
