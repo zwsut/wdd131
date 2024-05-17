@@ -29,7 +29,7 @@ const temples = [
     dedicated: "2020, May, 2",
     area: 6861,
     imageUrl:
-    "images/yigoGuam.jpg"
+    "images/yigo2.jpg"
   },
   {
     templeName: "Washington D.C.",
@@ -45,7 +45,7 @@ const temples = [
     dedicated: "1986, January, 10",
     area: 9600,
     imageUrl:
-    "images/limaPeru.jpg"
+    "images/lima2.jpg"
   },
   {
     templeName: "Mexico City Mexico",
