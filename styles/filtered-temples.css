@@ -43,7 +43,6 @@ h2 {
 }
 
 .temple-card {
-    font-display: optional;
     background-color: #e9dbad;
     padding: 10px;
     margin: 20px;
@@ -103,7 +102,6 @@ figcaption {
 }
 
 footer {
-    font-display: optional;
     background-color: #333;
     color: #FFFFFF;
     padding: 20px;
