@@ -6,6 +6,7 @@ body {
     min-height: 100vh;
     margin: 0;
     text-align: center;
+    background-color: #E9DBAD;
 }
 
 h1, h2, h3, p, ul {
@@ -19,6 +20,16 @@ div {
     max-width: 1200px;
     width: 100%;
     box-sizing: border-box;
+    background-color: #e6ddc3;
+    color: #001F3F;
+}
+
+h1, h2, h3 {
+    font-family: 'Proza Libre', sans-serif;
+}
+
+p, li {
+    font-family: 'Corben', sans-serif;
 }
 
 #purpose, #scenarios, #color, #fonts, #wireframes {
@@ -81,3 +92,13 @@ ul {
 #corben {
     font-family: 'Corben', sans-serif;
 }
+
+footer {
+    background-color: #333;
+    color: #E9DBAD;
+    width: 1200px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
