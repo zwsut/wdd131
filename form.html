@@ -17,15 +17,15 @@
     <form action="review.html" method="get" class="container">
 
         <div class="form-contents">
-            <label for="productName">Product Name</label>
+            <label for="productName">Product Name - Required</label>
             <select id="productName" name="productName" required>
                 <option value="" disabled selected>Select a Product ...</option>
             </select>
         </div>
 
         <div class="form-contents">
-            <label>Overall Rating</label>
-            <div class="rating">
+            <label>Overall Rating - Required</label>
+            <div class="rating" id="rating" name="rating">
                 <div class="star-rating">
                     <label for="star1" class="col1">☆</label>
                     <label for="star2" class="col2">☆☆</label>
@@ -34,7 +34,7 @@
                     <label for="star5" class="col5">☆☆☆☆☆</label>
                 </div>
                 <div class="radio-buttons">
-                    <input type="radio" id="star1" name="rating" value="1" class="col1">
+                    <input type="radio" id="star1" name="rating" value="1" class="col1" required>
                     <input type="radio" id="star2" name="rating" value="2" class="col2">
                     <input type="radio" id="star3" name="rating" value="3" class="col3">
                     <input type="radio" id="star4" name="rating" value="4" class="col4">
@@ -44,7 +44,7 @@
         </div>
 
         <div class="form-contents">
-            <label for="installationDate">Date of Installation</label>
+            <label for="installationDate">Date of Installation - Required</label>
             <input type="date" id="installationDate" name="installationDate" required>
         </div>
 
@@ -73,7 +73,7 @@
         </div>
 
         <div class="form-contents">
-            <input type="submit" value="Submit Your Review!">
+            <input type="submit" value="Post Your Review!">
         </div>
     </form>
 
