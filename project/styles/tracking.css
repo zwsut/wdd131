@@ -111,3 +111,32 @@ footer {
         margin-bottom: 120px;
     }
 }
+
+@media (max-width: 768px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #dbc171;
+        position: relative;
+        top: 100%;
+        left: 0;
+        z-index: 3;
+        border-radius: 25px;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .nav-list li {
+        text-align: center;
+        margin: 0;
+        padding: 1em 0;
+    }
+
+    .hamburger {
+        display: flex;
+        color: #001F3F;
+    }
+}
