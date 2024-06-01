@@ -9,6 +9,14 @@ body, html {
     display: grid;
 }
 
+@font-face {
+    font-family: 'Proza Libre';
+    font-style: normal;
+    font-weight: 400;
+    src: url('path/to/proza-libre.woff2') format('woff2');
+    font-display: swap;
+}
+
 .header {
     background-color: #E9DBAD;
     display: flex;
