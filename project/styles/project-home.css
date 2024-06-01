@@ -143,6 +143,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .desktop-image {
+        display: none;
+    }
+
     .nav-list {
         display: none;
         flex-direction: column;
