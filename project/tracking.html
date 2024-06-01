@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise Hub - Home</title>
-    <link rel="stylesheet" href="styles/project-home.css">
-    <script defer src="scripts/project.js"></script>
+    <link rel="stylesheet" href="styles/tracking.css">
+    <script defer src="scripts/tracking.js"></script>
     <script defer src="../scripts/getdates.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,9 +18,9 @@
         </div>
         <nav class="navbar">
             <ul class="nav-list">
-                <li><a href="#" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="exercises.html">Exercises</a></li>
-                <li><a href="tracking.html">Tracking</a></li>  
+                <li><a href="#" class="active">Tracking</a></li>  
             </ul>
             <div class="hamburger">
                 <div class="bar"></div>
@@ -29,15 +29,28 @@
             </div>
         </nav>
     </div>
-    <div class="hero">
-        <h2>Welcome to Exercise Hub! Whether you're a seasoned athlete or taking your first steps towards a healthier lifestyle, our platform is here to support you every step of the way. From personalized workout tracking to workout recommendations and community support, we're dedicated to helping you achieve your fitness goals.</h2>
-        <img src="images/hero-wide.png" alt="Woman Doing Yoga - Credit: Kike Vega" class="desktop-image" loading="lazy">
-        <img src="images/aan-nizal-mobile.jpg" alt="Man Running - Credit: Aan Nizal" class="mobile-image" loading="lazy">
-        <div class="overlay">
-            <div class="circle">Fitness for Everyone</div>
-            <div class="circle">Get Fit, Stay Healthy</div>
-            <div class="circle">Empower Your Body</div>
-        </div>
+
+    <div id="exercise-form-container">
+        <h2>Log Your Exercise</h2>
+        <form id="exercise-form">
+            <label for="exerciseType">Exercise Type:</label>
+            <select id="exerciseType" required>
+            </select>
+
+            <label for="exerciseDate">Date:</label>
+            <input type="date" id="exerciseDate" required>
+
+            <label for="exerciseDuration">Duration (minutes):</label>
+            <input type="number" id="exerciseDuration" min="1" required>
+
+            <button type="submit">Log Exercise</button>
+        </form>
+    </div>
+
+    <div id="exercise-log-container">
+        <h2>Logged Exercises</h2>
+        <ul id="exercise-log">
+        </ul>
     </div>
 
     <footer>

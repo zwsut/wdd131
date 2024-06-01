@@ -1,9 +1,8 @@
-/* General reset and styling */
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: Arial, sans-serif;
+    font-family: 'Proza Libre', sans-serif;
 }
 
 body {
@@ -69,14 +68,14 @@ body {
 }
 .hero h2 {
     position: absolute;
-    top: 10%; /* Adjust the top position as needed */
-    left: 10%; /* Adjust the left position as needed */
-    z-index: 2; /* Ensure the text is above the image */
-    font-size: 1.2em; /* Adjust the font size as needed */
-    color: black; /* Text color */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional text shadow for better readability */
-    max-width: 80%; /* Limit the width of the text */
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(112, 62, 170, 0.2));
+    top: 10%;
+    left: 10%;
+    z-index: 2;
+    font-size: 1.2em;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    max-width: 80%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(163, 122, 209, 0.8));
     margin: 1rem;
     border-radius: 10px;
 }
@@ -143,7 +142,6 @@ footer {
     color: #7e008a;
 }
 
-/* Media Queries for Mobile View */
 @media (max-width: 768px) {
     .nav-list {
         display: none;
@@ -200,6 +198,6 @@ footer {
     }
 
     .hero h2 {
-        top: 0%; /* Adjust the top position as needed */
+        top: 0%;
     }
 }

@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     font-family: 'Proza Libre', sans-serif;
     background-color: #001F3F;
@@ -70,27 +70,19 @@ h1 {
     text-align: center;
 }
 
-#selector {
-    display: inline-block;
-    color: #dbc171;
-    text-align: center;
-}
-
-#exerciseContainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    place-items: center;
-}
-
-.exercise-card {
+#exercise-form-container, #exercise-log-container {
     background-color: #E9DBAD;
-    max-width: 300px;
-    height: auto;
-    margin: 20px;
+    padding: 40px;
     border: 5px solid black;
-    padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #bfa45c;
 }
 
 footer {
@@ -107,13 +99,15 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-    #exerciseContainer {
-        grid-template-columns: 1fr 1fr;
+    #exercise-form-container, #exercise-log-container {
+        width: 600px;
+        margin-bottom: 80px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    #exerciseContainer {
-        grid-template-columns: 1fr 1fr 1fr;
+    #exercise-form-container, #exercise-log-container {
+        width: 800px;
+        margin-bottom: 120px;
     }
 }
